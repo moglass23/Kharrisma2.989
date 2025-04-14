@@ -10,7 +10,6 @@ document.getElementById('rsvp-form').addEventListener('submit', function(e) {
     return;
   }
 
-  // Simulate submission
   document.getElementById('rsvp-form').style.display = 'none';
   document.getElementById('success').style.display = 'block';
 });
